@@ -1,0 +1,191 @@
+#border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1rem;
+    width: 61rem;
+}
+
+#header {
+    background-color: #35bc7a;
+    width: 17rem;
+    height: 12rem;
+    color: white;
+}
+
+.brad {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.button {
+    border: white 0.2rem solid;
+    width: 7rem;
+    height: 2.2rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+#flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 16rem;
+}
+
+#line{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#profil {
+    background-color: yellow;
+    width: 8.5rem;
+    height: 12rem;
+    text-align: center;
+}
+
+#profil > p {
+    margin-top: 5rem;
+
+}
+
+#line2 {
+    display: flex;
+}
+
+.top > p {
+    margin-top: 5rem;
+}
+
+#line3 {
+    display: flex;
+}
+
+#experience {
+    background-color: blue;
+    width: 8.5rem;
+    height: 12rem;
+    text-align: center;
+}
+
+#education {
+    background-color: red;
+    width: 8.5rem;
+    height: 12rem;
+    text-align: center;
+}
+
+#blog {
+    background-color: #35bc7a;
+    width: 8.5rem;
+    height: 12rem;
+    text-align: center;
+}
+
+#socialmenu {
+    background-color: orange;
+    width: 8.5rem;
+    height: 12rem;
+    text-align: center;
+}
+
+#contact {
+    background-color: blue;
+    width: 8.5rem;
+    height: 12rem;
+    text-align: center;
+}
+
+#portefolio {
+    background-color: orange;
+    width: 8.5rem;
+    height: 12rem;
+    text-align: center;
+
+}
+
+#image-brad img {
+    width: 36rem;
+    height: auto;
+}
+
+.gauche, .droite {
+    display: inline-block;
+    position: absolute;
+    width: 0.3rem;
+    z-index: 31;
+    font-weight: bold;
+    border-width: 6px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+
+.gauche {
+    margin-left: -8rem;
+}
+
+.droite {
+    margin-left: 59rem;
+}
+
+img {
+    z-index: -1;
+    width: 36rem;
+}
+
+@media screen and (max-width: 1098px ) {
+    img, .droite, .gauche {
+        visibility: hidden;
+    }
+
+    #border {
+        width: 25.5rem;
+    }
+
+    #content {
+        margin-left: 36rem;
+    }
+}
+
+@media screen and (max-width: 522px ) {
+    #border {
+        width: 17rem;
+        height: 60rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #content {
+        margin-left: 0rem;
+
+    }
+
+   #line,#line2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #line3{
+        display: flex;
+        flex-direction: column;
+        margin-left: 8.5rem;
+        margin-top: -48rem;
+
+    }
+    #contact{
+        background-color: yellow;
+    }
+}
+
+
+
+
+
+
